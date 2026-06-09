@@ -1,0 +1,145 @@
+.vm-section {
+  padding: 100px 0;
+  background: var(--white);
+  border-top: 1px solid var(--border);
+}
+
+/* ─── Cards grid ─────────────────────────────────────────────────────────── */
+
+.vm-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-bottom: 48px;
+}
+
+.vm-card {
+  position: relative;
+  border-radius: 16px;
+  padding: 48px 44px;
+  overflow: hidden;
+}
+
+.vm-card--blue {
+  background: linear-gradient(140deg, #0B2C6B 0%, #1557A5 100%);
+}
+
+.vm-card--green {
+  background: linear-gradient(140deg, #1B5E20 0%, #2E7D32 100%);
+}
+
+/* Decorative large circle in corner */
+.vm-card-deco {
+  position: absolute;
+  right: -60px;
+  bottom: -60px;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  border: 1.5px solid rgba(255,255,255,0.1);
+  pointer-events: none;
+}
+
+.vm-card-deco::before {
+  content: '';
+  position: absolute;
+  inset: 30px;
+  border-radius: 50%;
+  border: 1.5px solid rgba(255,255,255,0.07);
+}
+
+/* Card header */
+.vm-card-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+.vm-icon {
+  width: 52px;
+  height: 52px;
+  background: rgba(255,255,255,0.12);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.vm-icon svg { width: 28px; height: 28px; }
+
+.vm-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.7);
+}
+
+/* Card text */
+.vm-text {
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.82;
+  color: rgba(255,255,255,0.88);
+  position: relative;
+  z-index: 1;
+  padding-left: 18px;
+  border-left: 3px solid rgba(255,255,255,0.25);
+}
+
+/* ─── Core values strip ──────────────────────────────────────────────────── */
+
+.vm-values {
+  background: var(--gray-50);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 32px 36px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.vm-values-title {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--gray-400);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.vm-values-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  flex: 1;
+}
+
+.vm-value-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--navy);
+  background: var(--white);
+  border: 1px solid var(--border);
+  padding: 8px 16px;
+  border-radius: 100px;
+}
+
+/* ─── Responsive ─────────────────────────────────────────────────────────── */
+
+@media (max-width: 900px) {
+  .vm-grid { grid-template-columns: 1fr; }
+  .vm-card { padding: 36px 28px; }
+}
+
+@media (max-width: 640px) {
+  .vm-section { padding: 72px 0; }
+  .vm-values { flex-direction: column; gap: 20px; align-items: flex-start; }
+}

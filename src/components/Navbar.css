@@ -1,0 +1,97 @@
+.nav {
+  position: fixed;
+  inset-block-start: 0;
+  inset-inline: 0;
+  z-index: 999;
+  padding: 20px 0;
+  transition: background 0.35s, box-shadow 0.35s, padding 0.35s;
+}
+
+.nav--solid {
+  background: var(--white);
+  box-shadow: 0 1px 0 var(--border), 0 4px 24px rgba(0,0,0,0.06);
+  padding: 12px 0;
+}
+
+.nav-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo img { height: 50px; width: auto; }
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+
+.nav-link {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(255,255,255,0.88);
+  transition: color 0.2s;
+  letter-spacing: 0.1px;
+}
+
+.nav--solid .nav-link { color: var(--gray-800); }
+
+.nav-link:hover { color: var(--white); }
+.nav--solid .nav-link:hover { color: var(--blue); }
+
+.nav-btn { font-size: 13px; padding: 10px 24px; }
+
+.nav-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.nav-toggle span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: var(--white);
+  border-radius: 2px;
+  transition: transform 0.25s, opacity 0.25s, background 0.2s;
+}
+
+.nav--solid .nav-toggle span { background: var(--navy); }
+
+.nav-toggle span.open:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.nav-toggle span.open:nth-child(2) { opacity: 0; }
+.nav-toggle span.open:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+@media (max-width: 800px) {
+  .nav-toggle { display: flex; }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--white);
+    flex-direction: column;
+    align-items: stretch;
+    padding: 8px 0 20px;
+    gap: 0;
+    border-top: 1px solid var(--border);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.08);
+  }
+
+  .nav-links.open { display: flex; }
+
+  .nav-link {
+    color: var(--gray-800) !important;
+    padding: 14px 32px;
+    border-bottom: 1px solid var(--gray-100);
+  }
+
+  .nav-btn { margin: 16px 32px 0; text-align: center; }
+}

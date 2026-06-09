@@ -29,6 +29,9 @@ export default function Hero() {
       </div>
 
       <div className="container hero-body">
+        <div className="hero-brand">
+          <img src="/logo.png" alt="Pharmanexia Limited" className="hero-logo" />
+        </div>
         <div className="hero-eyebrow">
           <span className="hero-dot" />
           Pharmaceutical Sales &amp; Distribution &nbsp;·&nbsp; Pan India

@@ -13,6 +13,12 @@
 
 /* ─── Left: info pane ────────────────────────────────────────────────────── */
 
+.contact-logo {
+  height: 48px;
+  width: auto;
+  margin-bottom: 28px;
+}
+
 .contact-info .section-title { font-size: clamp(24px, 3vw, 32px); }
 
 .contact-info .section-sub {

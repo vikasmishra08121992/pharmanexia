@@ -33,6 +33,7 @@ export default function Contact() {
       <div className="container contact-inner">
 
         <div className="contact-info">
+          <img src="/logo.png" alt="Pharmanexia Limited" className="contact-logo" />
           <span className="section-tag">Get In Touch</span>
           <h2 className="section-title">Connect With Us</h2>
           <p className="section-sub">

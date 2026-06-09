@@ -43,6 +43,17 @@
   max-width: 860px;
 }
 
+/* ─── Hero brand logo ────────────────────────────────────────────────────── */
+
+.hero-brand { margin-bottom: 36px; }
+
+.hero-logo {
+  height: 56px;
+  width: auto;
+  filter: brightness(0) invert(1);
+  opacity: 0.92;
+}
+
 /* ─── Eyebrow ────────────────────────────────────────────────────────────── */
 
 .hero-eyebrow {

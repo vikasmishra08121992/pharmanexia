@@ -1,19 +1,5 @@
 const INDUSTRIES = [
   {
-    title: 'Hospitals',
-    desc: 'Supplying essential medicines and pharmaceuticals to multi-specialty and government hospitals across India.',
-    tag: 'Primary Care',
-    icon: (
-      <svg className="w-8 h-8" fill="none" viewBox="0 0 48 48" stroke="currentColor" strokeWidth={1.8}>
-        <rect x="8" y="14" width="32" height="28" rx="2"/>
-        <path d="M8 22h32"/>
-        <path d="M20 42V30h8v12" strokeLinejoin="round"/>
-        <path d="M8 14L24 6l16 8" strokeLinecap="round" strokeLinejoin="round"/>
-        <path d="M21 19h6M24 16v6" strokeLinecap="round"/>
-      </svg>
-    ),
-  },
-  {
     title: 'Pharmacies',
     desc: 'Wholesale pharmaceutical supply to retail pharmacies and medical stores with consistent and reliable availability.',
     tag: 'Retail Distribution',
@@ -22,17 +8,6 @@ const INDUSTRIES = [
         <rect x="10" y="18" width="28" height="22" rx="2"/>
         <path d="M16 18v-6a8 8 0 0116 0v6" strokeLinecap="round"/>
         <path d="M19 29h10M24 24v10" strokeLinecap="round"/>
-      </svg>
-    ),
-  },
-  {
-    title: 'Healthcare Institutions',
-    desc: 'Dedicated supply services for clinics, diagnostic centres, nursing homes, and specialized healthcare facilities.',
-    tag: 'Institutional',
-    icon: (
-      <svg className="w-8 h-8" fill="none" viewBox="0 0 48 48" stroke="currentColor" strokeWidth={1.8}>
-        <path d="M24 8c-7.7 0-14 5.8-14 13 0 9.2 14 22 14 22s14-12.8 14-22c0-7.2-6.3-13-14-13z" strokeLinejoin="round"/>
-        <path d="M19 21h10M24 16v10" strokeLinecap="round"/>
       </svg>
     ),
   },

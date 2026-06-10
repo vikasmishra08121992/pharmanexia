@@ -15,7 +15,7 @@ export default function About() {
             </div>
             <div className="about-info-card">
               <span className="info-label">Constitution</span>
-              <span className="info-value">Private Limited Company</span>
+              <span className="info-value">Limited Company</span>
             </div>
             <div className="about-info-card">
               <span className="info-label">Registered in</span>

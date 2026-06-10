@@ -88,7 +88,7 @@ export default function Footer() {
               <div className="space-y-2">
                 {[
                   { label: 'GSTIN', val: '24AAPCP9151P1ZL' },
-                  { label: 'Type', val: 'Private Limited Company' },
+                  { label: 'Type', val: 'Limited Company' },
                 ].map(m => (
                   <div key={m.label} className="flex items-center gap-2">
                     <span className="text-[10px] uppercase tracking-[1.5px] font-bold text-white/25">{m.label}</span>

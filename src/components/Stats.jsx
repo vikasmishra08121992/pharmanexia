@@ -72,27 +72,29 @@ const STATS = [
 ]
 
 export default function Stats() {
-  const ref = useRef(null)
-  const [active, setActive] = useState(false)
+  // const ref = useRef(null)
+  // const [active, setActive] = useState(false)
 
-  useEffect(() => {
-    const obs = new IntersectionObserver(
-      ([entry]) => { if (entry.isIntersecting) { setActive(true); obs.disconnect() } },
-      { threshold: 0.2 }
-    )
-    if (ref.current) obs.observe(ref.current)
-    return () => obs.disconnect()
-  }, [])
+  // useEffect(() => {
+  //   const obs = new IntersectionObserver(
+  //     ([entry]) => { if (entry.isIntersecting) { setActive(true); obs.disconnect() } },
+  //     { threshold: 0.2 }
+  //   )
+  //   if (ref.current) obs.observe(ref.current)
+  //   return () => obs.disconnect()
+  // }, [])
 
-  return (
-    <section ref={ref} className="bg-brand-navy-mid border-y border-white/[0.07]">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-2 lg:grid-cols-4 divide-x divide-y lg:divide-y-0 divide-white/[0.07]">
-          {STATS.map(s => (
-            <StatCard key={s.label} {...s} active={active} />
-          ))}
-        </div>
-      </div>
-    </section>
-  )
+  return null
+
+  // return (
+  //   <section ref={ref} className="bg-brand-navy-mid border-y border-white/[0.07]">
+  //     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  //       <div className="grid grid-cols-2 lg:grid-cols-4 divide-x divide-y lg:divide-y-0 divide-white/[0.07]">
+  //         {STATS.map(s => (
+  //           <StatCard key={s.label} {...s} active={active} />
+  //         ))}
+  //       </div>
+  //     </div>
+  //   </section>
+  // )
 }

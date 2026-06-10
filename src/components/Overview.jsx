@@ -9,7 +9,7 @@ const HIGHLIGHTS = [
 
 const META = [
   { label: 'GSTIN',              value: '24AAPCP9151P1ZL'      },
-  { label: 'Constitution',       value: 'Private Limited'       },
+  { label: 'Constitution',       value: 'Limited'               },
   { label: 'Registered Office',  value: 'Ahmedabad, Gujarat'   },
 ]
 

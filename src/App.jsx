@@ -1,8 +1,10 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import Stats from './components/Stats'
 import Overview from './components/Overview'
 import Services from './components/Services'
 import WhyUs from './components/WhyUs'
+import Process from './components/Process'
 import Industries from './components/Industries'
 import VisionMission from './components/VisionMission'
 import Contact from './components/Contact'
@@ -14,9 +16,11 @@ function App() {
     <>
       <Navbar />
       <Hero />
+      <Stats />
       <Overview />
       <Services />
       <WhyUs />
+      <Process />
       <Industries />
       <VisionMission />
       <Contact />

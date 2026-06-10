@@ -36,19 +36,6 @@ const SERVICES = [
   },
   {
     num: '04',
-    title: 'Institutional Supply Services',
-    desc: 'Dedicated pharmaceutical supply services for hospitals, healthcare institutions, government facilities, and pharmacies with consistent and timely delivery.',
-    icon: (
-      <svg className="w-6 h-6" fill="none" viewBox="0 0 40 40" stroke="currentColor" strokeWidth={1.8}>
-        <rect x="8" y="14" width="24" height="20" rx="2"/>
-        <path d="M14 34V26a2 2 0 012-2h8a2 2 0 012 2v8" strokeLinejoin="round"/>
-        <path d="M8 14l12-8 12 8" strokeLinecap="round"/>
-        <path d="M17 19h6M20 16v6" strokeLinecap="round"/>
-      </svg>
-    ),
-  },
-  {
-    num: '05',
     title: 'Supply Chain Management',
     desc: 'End-to-end supply chain management and logistics coordination ensuring seamless pharmaceutical distribution from source to destination across India.',
     icon: (
@@ -62,7 +49,7 @@ const SERVICES = [
     ),
   },
   {
-    num: '06',
+    num: '05',
     title: 'B2B Distribution Solutions',
     desc: 'Business-to-business pharmaceutical distribution services tailored for distributors, stockists, wholesale partners, and trade organizations.',
     icon: (

@@ -11,7 +11,6 @@ const SERVICES = [
   'Pharmaceutical Sales & Distribution',
   'Generic Medicine Distribution',
   'Controlled Medicine Distribution',
-  'Institutional Supply Services',
   'Supply Chain Management',
   'B2B Distribution Solutions',
 ]

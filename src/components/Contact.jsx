@@ -179,7 +179,6 @@ export default function Contact() {
                       className={`${inputCls} appearance-none cursor-pointer`}>
                       <option value="">Select inquiry type...</option>
                       <option>Distribution Partnership</option>
-                      <option>Institutional Supply</option>
                       <option>Wholesale Inquiry</option>
                       <option>B2B Distribution</option>
                       <option>General Information</option>

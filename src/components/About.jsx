@@ -33,7 +33,7 @@ export default function About() {
           </p>
           <p className="about-detail">
             With a strong focus on wholesale pharmaceutical distribution, we serve a wide network
-            of distributors, healthcare institutions, pharmacies, hospitals, and business partners
+            of distributors, pharmacies, and business partners
             nationwide. Our expertise, industry knowledge, and customer-focused approach allow us
             to meet the diverse requirements of our clients while maintaining the highest standards
             of professionalism and integrity.

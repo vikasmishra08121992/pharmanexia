@@ -69,8 +69,8 @@ export default function Industries() {
             Industries We Serve
           </h2>
           <p className="text-gray-500 text-[17px] leading-relaxed">
-            We partner with organizations across the entire healthcare ecosystem — from
-            frontline hospitals to wholesale trade networks — delivering reliable
+            We partner with organizations across the entire pharmaceutical ecosystem — from
+            retail pharmacies to wholesale trade networks — delivering reliable
             pharmaceutical supply at every level.
           </p>
         </div>

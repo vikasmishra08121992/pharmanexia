@@ -43,8 +43,8 @@ export default function Overview() {
 
             <p className="text-[15px] text-gray-500 leading-relaxed mb-10">
               With a strong focus on wholesale pharmaceutical distribution, we
-              serve a wide network of distributors, healthcare institutions,
-              pharmacies, hospitals, and business partners nationwide. Our
+              serve a wide network of distributors,
+              pharmacies, and business partners nationwide. Our
               specialization in Generic and Controlled pharmaceutical products
               ensures essential medicines reach patients through a dependable,
               organized supply chain.

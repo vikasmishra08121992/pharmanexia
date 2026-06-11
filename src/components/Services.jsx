@@ -83,8 +83,8 @@ export default function Services() {
             <div className="w-12 h-1 bg-brand-sky rounded mt-5" />
           </div>
           <p className="text-[17px] text-gray-500 leading-relaxed max-w-md lg:text-right">
-            Comprehensive pharmaceutical distribution services to hospitals,
-            pharmacies, distributors, and healthcare institutions across India.
+            Comprehensive pharmaceutical distribution services to 
+            pharmacies, distributors across India.
           </p>
         </div>
 
